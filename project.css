@@ -1,0 +1,115 @@
+/* ---------------------------------GENERAL--------------------------------- */
+
+body {
+    font-family: "Montserrat";
+}
+
+
+
+/* ---------------------------------HEADER--------------------------------- */
+
+.header_content {
+    max-width: 850px;
+}
+
+header,
+.nav_bar a {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    height: 20px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: coral;
+}
+
+.header_logo {
+    height: 400px;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    z-index: -1;
+}
+
+/* background video */
+
+.header_block {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.header_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+    filter: blur(5px);
+    filter: brightness(25%);
+}
+
+/* Dropdown menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+.dropdown-content a {
+
+    padding: 0 5px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Achivment */
+
+.achivment_wrapper {
+    border-left-style: solid;
+    border-left-color: coral;
+    border-left-width: 2px;
+    margin: 3px;
+}
+
+.achivment_title {
+    font-size: 15px;
+}
+
+
+/* ---------------------------------MAIN--------------------------------- */
+
+main {
+    width: 100%;
+}
+
+.help {
+    width: 1082px;
+    height: 716px;
+    border: solid 1px;
+}
+
+.divHelp1 {
+    height: 280px;
+    width: 50%;
+}
+
